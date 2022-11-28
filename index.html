@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221128192401">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="150" data-scroll-show="500" class="header">
+			<div class="header__container">
+				<div class="header_column">
+					<div><a href="index.html" class="header__logo"><img src="img/logo.svg" alt="Trastex" class="header__image"></a></div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">О нас</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Продукция</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header_contacts">
+						<div><a href="mailto:print@mail.ru" class="header__mail">tt-print@mail.ru</a></div>
+						<div><a href="tel:+375173957332" class="header__telephone">+375 (17) 395-73-32</a></div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="mainpage">
+			<section data-fullscreen class="mainpage__fullscreenblock fullscreenblock">
+				<div class="fullscreenblock__container">
+					<div class="fullscreenblock__decor"></div>
+					<div class="fullscreenblock__line"></div>
+					<div class="fullscreenblock__content">
+						<div class="fullscreenblock__textblock">
+							<div class="fullscreenblock__title">транстэкс</div>
+							<div class="fullscreenblock__text">типография</div>
+						</div>
+						<div class="fullscreenblock__imageblock"><img src="img/mainpct.svg" alt="Главная" class="fullscreenblock__image"></div>
+					</div>
+					<button data-goto=".targets" type="button" class="fullscreenblock__scroll scroll">
+						<div class="scroll__text">Узнать больше</div>
+					</button>
+				</div>
+			</section>
+			<div class="mainpage__body">
+				<section class="targets">
+					<div class="targets__container">
+						<div class="targets__round"></div>
+						<div class="targets__symbol"></div>
+
+						<div class="targets__content">
+							<div class="targets__our targets__link">наша</div>
+							<div class="targets__items">
+								<div class="targets__item"><a href="#" data-popup="#target" class="targets__link targets__link-icon1">цель</a></div>
+								<div class="targets__item"><a href="#" data-popup="#philosophy" class="targets__link targets__link-icon2">философия</a></div>
+								<div class="targets__item"><a href="#" data-popup="#lamp" class="targets__link targets__link-icon3">идея</a></div>
+							</div>
+						</div>
+
+
+						<div class="targets__targetmobile targetsmobile">
+							<div class="targetsmobile__our">наша</div>
+							<div class="targetsmobile__block">
+								<div class="targetsmobile__title targetsmobile__title-target">цель</div>
+								<div class="targetsmobile__text targetsmobile__text-target">Сделать Вашу полиграфическую продукцию видимой. Использование полиграфии играет большую роль в продвижении товаров и услуг. Печатная продукция стоит недорого, проста в изготовлении и достаточно эффектна, чтобы использовать её периодически или постоянно в рекламных целях.</div>
+							</div>
+							<div class="targetsmobile__block">
+								<div class="targetsmobile__title targetsmobile__title-philosophy">философия</div>
+								<div class="targetsmobile__text targetsmobile__text-philosophy">Фирменный стиль — это не просто логотип или название организации. Он включает в себя общую концепцию дизайна и отражает философию и цели компании. Это совокупность графических, текстовых и даже звуковых элементов, которые отличают организацию от других.</div>
+							</div>
+							<div class="targetsmobile__block">
+								<div class="targetsmobile__title targetsmobile__title-lamp">идея</div>
+								<div class="targetsmobile__text targetsmobile__text-lamp">С нами возможна реализация в жизнь любых, даже самых оригинальных идей и задумок.</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="services">
+					<div class="services__container">
+						<div class="services__background1"></div>
+						<div class="services__content">
+							<div class="services__list list">
+								<div class="list__title">Услуги<br> типографии</div>
+								<ul class="list__items">
+									<li id='b1'>Фирменная продукция</li>
+									<li id='b2'>Рекламная продукция</li>
+									<li id='b3'>Периодическая продукциия</li>
+									<li id='b4'>Офсетная печать</li>
+									<li id='b5'>Цифровая печать</li>
+									<li id='b6'>Изготовление офсетных печатных форм</li>
+								</ul>
+							</div>
+							<div class="services__karusel">
+								<!-- Оболочка слайдера -->
+								<div class="services__slider swiper1">
+									<!-- Двигающееся часть слайдера -->
+									<div class="services__wrapper swiper-wrapper">
+										<!-- Слайд -->
+										<div class="services__slide swiper-slide" id='slide1'>
+											<div class="services__slide-title">Фирменная продукция</div>
+											<div class="services__slide-text">- папки с логотипом<br> - фирменные бланки<br> - прайс-листы <br> - блокноты<br> - календари</div>
+											<div class="services__slide-imagebox"><picture><source srcset="img/slider/slide1.webp" type="image/webp"><img src="img/slider/slide1.png" alt="" class="services__slide-image"></picture></div>
+										</div>
+
+										<div class="services__slide swiper-slide" id='slide2'>
+											<div class="services__slide-title">Рекламная продукция</div>
+											<div class="services__slide-text">- листовки<br> - флаера<br> - буклеты<br> - плакаты<br> - календари</div>
+											<div class="services__slide-imagebox"><picture><source srcset="img/slider/slide2.webp" type="image/webp"><img src="img/slider/slide2.png" alt="" class="services__slide-image"></picture></div>
+										</div>
+
+										<div class="services__slide swiper-slide" id='slide3'>
+											<div class="services__slide-title">Периодическая продукция</div>
+											<div class="services__slide-text">- журналы<br>- брошюры<br>- каталоги<br>- годовые отчеты</div>
+											<div class="services__slide-imagebox"><picture><source srcset="img/slider/slide3.webp" type="image/webp"><img src="img/slider/slide3.png" alt="" class="services__slide-image"></picture></div>
+										</div>
+
+										<div class="services__slide swiper-slide" id='slide4'>
+											<div class="services__slide-title">Офсетная печать</div>
+											<div class="services__slide-text">- экономия<br>- качество продукции<br>- цветопередача<br>- формат</div>
+											<div class="services__slide-imagebox"><img src="img/slider/slide4.svg" alt="" class="services__slide-image"></div>
+										</div>
+
+										<div class="services__slide swiper-slide" id='slide5'>
+											<div class="services__slide-title">Цифровая печать</div>
+											<div class="services__slide-text">- малые тиражи<br>- уникальность продукции<br>- время изготовления<br></div>
+											<div class="services__slide-imagebox"><img src="img/slider/slide5.svg" alt="" class="services__slide-image"></div>
+										</div>
+
+										<div class="services__slide swiper-slide" id='slide6'>
+											<div class="services__slide-title">Изготовление CTP-форм</div>
+											<div class="services__slide-text">- CtP-технология гарантирует стабильность и точность воспроизведения изображения при печати<br>- позволяет выводить пластины с различным растром, линеатурой и формой точки</div>
+											<div class="services__slide-imagebox"><picture><source srcset="img/slider/slide6.webp" type="image/webp"><img src="img/slider/slide6.png" alt="" class="services__slide-image"></picture></div>
+										</div>
+									</div>
+									<!-- Если нужна пагинация -->
+									<div class="swiper-pagination"></div>
+									<!-- Если нужна навигация (влево/вправо) -->
+									<button type="button" class="swiper-button-prev"></button>
+									<button type="button" class="swiper-button-next"></button>
+								</div>
+							</div>
+						</div>
+						<button type="submit" class="services__button button">Заказать</button>
+					</div>
+				</section>
+				<section class="counter">
+					<div class="counter__container">
+						<div class="counter__bacgrounddecor"></div>
+						<div class="counter__linedecor"></div>
+						<div class="counter__content">
+							<div class="counter__title">Опыт работы</div>
+							<div class="counter__counts">
+								<div class="counter__block">
+									<div class="counter__numplus">
+										<div data-digits-counter class="counter__count">30</div>
+										<div class="counter__count">+</div>
+									</div>
+									<div class="counter__text">Лет работы</div>
+								</div>
+								<div class="counter__block">
+									<div class="counter__numplus">
+										<div data-digits-counter class="counter__count">2000</div>
+										<div class="counter__count">+</div>
+									</div>
+									<div class="counter__text">Довольных клиентов</div>
+								</div>
+								<div class="counter__block">
+									<div class="counter__numplus">
+										<div data-digits-counter class="counter__count">24000</div>
+										<div class="counter__count">+</div>
+									</div>
+									<div class="counter__text">Выполненных работ</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="order">
+					<div class="order__container">
+						<div class="order__background"></div>
+						<div class="order__content">
+							<div class="order__title">Оформление заказа</div>
+							<div class="order__text">
+								<div class="order__leftcolumn">
+									<div class="order__item order__item_bold"><span class="order__item_red">Ваши</span> действия</div>
+									<div class="order__item">Вы связываетесь с нами любым, удобным для вас способом</div>
+									<div class="order__item"></div>
+									<div class="order__item">Вы отправляете: техническое задание, дизайн макет, доп. комментарии</div>
+									<div class="order__item"></div>
+									<div class="order__item">Вы подтверждаете дизайн макет, вносите изменения при необходимости и совершаете предоплату</div>
+								</div>
+								<div class="order__centercolumn">
+									<div class="order__item order__item_transparentsmall">Шаг</div>
+									<div class="order__item order__item_transparent">1</div>
+									<div class="order__item order__item_line"></div>
+									<div class="order__item order__item_transparent">2</div>
+									<div class="order__item order__item_line"></div>
+									<div class="order__item order__item_transparent">3</div>
+									<div class="order__item order__item_linehalf"></div>
+									<div class="order__item order__item_border">
+										<div class="order__item_bold order__item_padding">Ура!</div>
+										<div class="order__item_padding2">Заказ готов! Вы принимаете его и оплачиваете окончательную сумму</div>
+									</div>
+								</div>
+								<div class="order__rightcolumn">
+									<div class="order__item order__item_bold"><span class="order__item_red">Наши</span> действия</div>
+									<div class="order__item">Наш менеджер перезвонит вам для уточнения деталей заказа</div>
+									<div class="order__item"></div>
+									<div class="order__item">Получив данные, мы выполним предварительный просчет заказа</div>
+									<div class="order__item"></div>
+									<div class="order__item">Мы готовим и отдаем заказ в производство, сообщаем о готовности</div>
+								</div>
+							</div>
+						</div>
+						<div class="oreder__ordermobile ordermobile">
+							<div class="ordermobile__title">Оформление заказа</div>
+							<!-- Оболочка слайдера -->
+							<div class="ordermobile__slider swiper2">
+								<!-- Двигающееся часть слайдера -->
+								<div class="ordermobile__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="ordermobile__slide swiper-slide">
+										<div class="ordermobile__step">1</div>
+										<div class="ordermobile__subtitle"><span class="ordermobile__subtitle_red">Ваши</span> действия</div>
+										<div class="ordermobile__text">Вы связываетесь с нами любым, удобным для вас способом</div>
+										<div class="ordermobile__line"></div>
+										<div class="ordermobile__subtitle"><span class="ordermobile__subtitle_red">Наши</span> действия</div>
+										<div class="ordermobile__text">Наш менеджер перезвонит вам для уточнения деталей заказа</div>
+									</div>
+									<div class="ordermobile__slide swiper-slide">
+										<div class="ordermobile__step">2</div>
+										<div class="ordermobile__subtitle"><span class="ordermobile__subtitle_red">Ваши</span> действия</div>
+										<div class="ordermobile__text">Вы отправляете: техническое задание, дизайн макет, доп. комментарии</div>
+										<div class="ordermobile__line"></div>
+										<div class="ordermobile__subtitle"><span class="ordermobile__subtitle_red">Наши</span> действия</div>
+										<div class="ordermobile__text">Получив данные, мы выполним предварительный просчет заказа</div>
+									</div>
+									<div class="ordermobile__slide swiper-slide">
+										<div class="ordermobile__step">3</div>
+										<div class="ordermobile__subtitle"><span class="ordermobile__subtitle_red">Ваши</span> действия</div>
+										<div class="ordermobile__text">Вы подтверждаете дизайн макет, вносите изменения при необходимости и совершаете предоплату</div>
+										<div class="ordermobile__line"></div>
+										<div class="ordermobile__subtitle"><span class="ordermobile__subtitle_red">Наши</span> действия</div>
+										<div class="ordermobile__text">Мы готовим и отдаем заказ в производство, сообщаем о готовности</div>
+									</div>
+									<div class="ordermobile__slide swiper-slide">
+										<div class="ordermobile__subtitle">Ура!</div>
+										<div class="ordermobile__text">Заказ готов! Вы принимаете его и оплачиваете окончательную сумму</div>
+									</div>
+
+								</div>
+								<!-- Если нужна пагинация -->
+								<div class="swiper-pagination-mobile"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="polygraphy">
+					<div class="polygraphy__container">
+						<div class="polygraphy__contentpc">
+							<div class="polygraphy__title">Полиграфия для вашего бизнеса</div>
+							<div class="polygraphy__items">
+
+								<div class="polygraphy__column1">
+									<div class="polygraphy__item item__item1">
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slide1.webp" type="image/webp"><img src="img/slider/slide1.png" alt="корпоративная полиграфия" class="polygraphy__image1"></picture></div>
+										<div class="polygraphy__subtitle">Корпоративная полиграфия</div>
+										<div class="polygraphy__textactive">Печатная продукция, оформленная в соответствии с концепцией дизайна компании и её фирменным стилем</div>
+									</div>
+									<div class="polygraphy__item item__item5">
+										<div class="polygraphy__subtitle">Папки</div>
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slidedop2.webp" type="image/webp"><img src="img/slider/slidedop2.png" alt="папки" class="polygraphy__image5"></picture></div>
+										<div class="polygraphy__textactive">Папки, оформленные в корпоративном стиле, повышают узнаваемость фирменного бренда.</div>
+
+									</div>
+								</div>
+
+								<div class="polygraphy__column2">
+									<div class="polygraphy__item item__item2">
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slidedop1.webp" type="image/webp"><img src="img/slider/slidedop1.png" alt="календари" class="polygraphy__image2"></picture></div>
+										<div class="polygraphy__subtitle">Календари</div>
+										<div class="polygraphy__textactive">Календари используют как сувенир, корпоративную атрибутику, рекламный инструмент.</div>
+									</div>
+									<div class="polygraphy__item item__item6">
+										<div class="polygraphy__subtitle">Стикеры</div>
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slidedop3.webp" type="image/webp"><img src="img/slider/slidedop3.png" alt="стикеры" class="polygraphy__image6"></picture></div>
+										<div class="polygraphy__textactive">Довольно универсальная продукция для разных целей.</div>
+
+									</div>
+								</div>
+
+								<div class="polygraphy__column3">
+									<div class="polygraphy__item item__item3">
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slide3.webp" type="image/webp"><img src="img/slider/slide3.png" alt="каталоги" class="polygraphy__image3"></picture></div>
+										<div class="polygraphy__subtitle">Каталоги</div>
+										<div class="polygraphy__textactive">Графические материалы, перечень товарови услуг - способ рассказать клиентам о товарах и услугах.</div>
+
+									</div>
+									<div class="polygraphy__item item__item7">
+										<div class="polygraphy__subtitle">Визитки</div>
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slidedop4.webp" type="image/webp"><img src="img/slider/slidedop4.png" alt="визитки" class="polygraphy__image7"></picture></div>
+										<div class="polygraphy__textactive">Срочная печать визиток с использованием современного цифрового оборудования в самые сжатые сроки.</div>
+									</div>
+								</div>
+
+								<div class="polygraphy__column4">
+									<div class="polygraphy__item item__item4">
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slide2.webp" type="image/webp"><img src="img/slider/slide2.png" alt="листовки буклеты" class="polygraphy__image4"></picture></div>
+										<div class="polygraphy__subtitle">Листовки и буклеты</div>
+										<div class="polygraphy__textactive">Формат буклета хорошо подходит для рекламы товаров и услуг.</div>
+									</div>
+									<div class="polygraphy__item item__item8">
+										<div class="polygraphy__subtitle">Открытки</div>
+										<div class="polygraphy__imagebox"><picture><source srcset="img/slider/slidedop5.webp" type="image/webp"><img src="img/slider/slidedop5.png" alt="открытки" class="polygraphy__image8"></picture></div>
+										<div class="polygraphy__textactive">Красочные и яркие открытки сопровождают любой праздник.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="polygraphy__polygraphymobile polygraphymobile">
+							<div class="polygraphymobile__title">Полиграфия для вашего бизнеса</div>
+							<!-- Оболочка слайдера -->
+							<div class="polygraphymobile__slider swiper3">
+								<!-- Двигающееся часть слайдера -->
+								<div class="polygraphymobile__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Корпоративная полиграфия</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slide1.webp" type="image/webp"><img src="img/slider/slide1.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Календари</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slidedop1.webp" type="image/webp"><img src="img/slider/slidedop1.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Каталоги</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slide3.webp" type="image/webp"><img src="img/slider/slide3.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Листовки и буклеты</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slide2.webp" type="image/webp"><img src="img/slider/slide2.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Папки</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slidedop2.webp" type="image/webp"><img src="img/slider/slidedop2.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Стикеры</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slidedop3.webp" type="image/webp"><img src="img/slider/slidedop3.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Визитки</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slidedop4.webp" type="image/webp"><img src="img/slider/slidedop4.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+									<div class="polygraphymobile__slide swiper-slide">
+										<div class="polygraphymobile_subtittle">Открытки</div>
+										<div class="polygraphymobile__imagebox"><picture><source srcset="img/slider/slidedop5.webp" type="image/webp"><img src="img/slider/slidedop5.png" alt="" class="polygraphymobile__image"></picture></div>
+									</div>
+								</div>
+
+								<!-- Если нужна пагинация -->
+								<div class="swiper-pagination-polygraphymobile"></div>
+
+								<div class="polygraphymobile__slider swiper31">
+									<div class="polygraphymobile__wrapper swiper-wrapper">
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Если у Вас есть готовые товары или услуги, и Вы сформулировали оффер, следующим шагом для развития бизнеса является привлечение клиентов и повышение узнаваемости. Корпоративная полиграфия — один из самых мощных инструментов для достижения этой цели.</div>
+										</div>
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Корпоративные календари — это популярный бизнес-сувенир. Они станут рекламным носителем, который займет свое место в офисе деловых партнеров или в доме клиента. С настольным или настенным календарем удобно планировать время, поэтому такой подарок воспринимается ярким и полезным.</div>
+										</div>
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Каталог – один из видов полиграфической продукции, целью которого является информирование целевой аудитории о товарах и услугах компании. Также эффективно используются для продвижения нового бренда или фирмы на рынке.</div>
+										</div>
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Листовки - один из наиболее дешевых видов полиграфической продукции. Низкая себестоимость листовок делает их доступным инструментом донесения рекламной информации до клиента. Формат буклета хорошо подходит для рекламы товаров и услуг.</div>
+										</div>
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Папки, оформленные в корпоративном стиле, повышают узнаваемость фирменного бренда. На такую продукцию наносят логотипы, контактные данные и другие изображения. Корпоративные папки используют как для внутреннего, так и для внешнего документооборота. В них удобно складывать документы для партнеров и клиентов, материалы для выставок или презентаций, бумаги на подпись и т.д.</div>
+										</div>
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Небольшая наклейка, размещаемая непосредственно на изделии, либо на его упаковке, илбо в ином месте (например, в местах продаж) с информационными целями. Такие стикеры очень широко используются, также, при проведении всевозможных BTL акций и программ формирования бренда. Довольно универсальная продукция для разных целей.</div>
+										</div>
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Типография «Транстэкс» оказывает услуги по срочной печати визиток. Использование современного цифрового оборудования дает возможность изготавливать полиграфическую продукцию в самые сжатые сроки.</div>
+										</div>
+										<div class="polygraphymobile__slide swiper-slide">
+											<div class="polygraphymobile__text">Открытки дарят не только родным и знакомым. Современная культура бизнеса предполагает печать открыток для поздравления деловых партнеров, постоянных клиентов или собственных сотрудников. Открытка стала частью корпоративного стиля и помогает не просто повысить узнаваемость бренда, но и улучшить лояльность. Ведь каждая открытка – это подарок, несущий отличное настроение и радостные эмоции.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button type="submit" class="polygraphy__button button">Заказать</button>
+					</div>
+				</section>
+
+
+				<section class="connection">
+					<div class="connection__container">
+						<div class="connection__decor1"></div>
+						<div class="connection__decor2"></div>
+						<div class="connection__decor3"></div>
+						<div class="connection__title">Создайте ваш запрос или сделайте заказ</div>
+						<form data-dev data-ajax action="files/sendmail/sendmail.php" id="form" method="POST" class="connection__form form">
+							<div class="form__item">
+								<input autocomplete="off" type="text" name="form[name]" data-error="Ошибка" data-required placeholder="Имя" class="form__input">
+							</div>
+							<div class="form__item">
+								<input autocomplete="off" type="text" name="form[phone]" data-error="Ошибка" data-required placeholder="Номер мобильного телефона или почта" class="form__input">
+							</div>
+							<div class="form__item">
+								<textarea autocomplete="off" name="form[text]" placeholder="Напишите ваши пожелания" data-error="Ошибка" class="form__input"></textarea>
+							</div>
+							<div class="form__files">
+								<div class="form__item2">
+									<div class="form__label">Выберете тип продукции:</div>
+									<select name="product" data-class-modif="form__select">
+										<option value="Визитки" selected>Визитки</option>
+										<option value="Листовки">Листовки</option>
+										<option value="Календари">Календари</option>
+										<option value="Книги/журналы">Книги/журналы</option>
+										<option value="Буклеты">Буклеты</option>
+										<option value="Другое">Другое</option>
+									</select>
+								</div>
+								<div class="form__item file">
+									<div class="form__label">Прикрепите файл:</div>
+									<div class="file__item">
+										<input id="formImage" accept=".jpg, .pdf, .png" type="file" name="image" multiple="multiple" class="file__input">
+										<div class="file__button2">Выбрать</div>
+									</div>
+								</div>
+
+							</div>
+							<button type="submit" class="form__button button">Заказать</button>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="questions">
+					<div class="questions__container">
+						<div class="questions__background"></div>
+						<div class="questions__decor"></div>
+						<div class="questions__title">Популярные вопросы</div>
+						<div data-spollers class="questions__spollers spolers">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Как сделать заказ?</button>
+								<div class="spollers__body">Для того чтобы сделать заказ вам необходимо связаться с менеджером нашей типографии по электронной почте или через форму обратной связи на сайте.</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">От чего зависит стоимость заказа?</button>
+								<div class="spollers__body">В случае если типография берет на себя подготовительные работы, стоимость продукции несомненно удорожает, но в итоге получится дешевле, если бы вы заказывали отдельно дизайнера, верстальщика для подготовки файла к печати и тратили время на изучение технологий и материалов</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Какие требования к дизайн-макетам?</button>
+								<div class="spollers__body">
+									<ul>
+										<li>- Размер страницы должен соответствовать обрезному формату изделия</li>
+										<li>- В публикации не должно быть невидимых, закрепленных, непечатаемых и неиспользуемых объектов</li>
+										<li>- Объекты, относящиеся к одному изделию, должны быть сгруппированы</li>
+										<li>- При изготовлении публикации используйте только CMYK-палитру</li>
+										<li>- Все эффекты должны быть конвертированы в СMYK-bitmap 300 dpi</li>
+										<li>- Не должно быть шрифтов и прозрачностей</li>
+										<li>- Не используйте в публикации растровую графику в форматах jpeg, gif, bmp</li>
+										<li>- Не должно быть OLE-объектов (например таблиц, вставленных из MS Word)</li>
+										<li>- Все использованные в публикации шрифты должны быть представлены как векторная графика (переведены в кривые)</li>
+										<li>- При больших плашках черного цвета используйте составной черный цвет не более Cyan-70, Magenta-50, Yellow-50, Black-90</li>
+										<li>- Общая сумма сложных цветов не более 270 процентов</li>
+
+									</ul>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Сколько времени займет выполнение заказа?</button>
+								<div class="spollers__body">Срок производства напрямую зависит от технического задания, метода печати, количества и сложности этапов производства. Для каждого тиража определяется индивидуально и согласовывается заранее.</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Как оплатить?</button>
+								<div class="spollers__body">Достаточно прислать техническое задание и оригинал-макет будущего изделия. Наш сотрудник свяжется с вами для согласования стоимости и срока производства тиража, затем вы получите договор и счёт на оплату. После поступления оплаты ваш заказ будет запущен в работу и отгружен точно в согласованный срок.</div>
+							</div>
+
+						</div>
+						<div class="questions__contact">
+							<div class="questions__question">Остались вопросы?<br><span class="questions__question-red">Звоните!</span></div>
+							<div class="questions__telephone">+375 (17) 395-73-32</div>
+						</div>
+						<button data-goto=".mainpage" type="button" class="spollers__scroll scroll">
+							<div class="spollers__text">наверх</div>
+						</button>
+					</div>
+				</section>
+
+				<!-- <div class="input__wrapper">
+						<input name="file" type="file" id="input__file" class="input input__file" multiple>
+						<label for="input__file" class="input__file-button">
+							<span class="input__file-button-text">Выберите файл</span>
+						</label>
+					</div> -->
+
+
+
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer_column">
+					<div><a href="index.html" class="footer__logo"><img src="img/logo.svg" alt="Trastex" class="footer__image"></a></div>
+					<div class="footer_contacts">
+						<div class="footer__contact">
+							<div><a href="mailto:print@mail.ru" class="footer__mail">tt-print@mail.ru</a></div>
+							<div><a href="tel:+375173957332" class="footer__telephone">+375 (17) 395-73-32</a></div>
+						</div>
+						<div class="footer__adresstime">
+							<div class="footer__adress">г. Минск ул. Чапаева, д. 5, цокольный этаж</div>
+							<div class="footer__time">Пн-Пт 8:30-17:00</div>
+						</div>
+					</div>
+					<div class="footer__social">
+						<a href="" class="footer__vk _icon-vk"></a>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+	<div id="target" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__item item">
+					<div class="item__our">наша</div>
+					<div class="item__block">
+						<div class="item__title item__title-target">цель</div>
+						<div class="item__text item__text-target">Сделать Вашу полиграфическую продукцию видимой. Использование полиграфии играет большую роль в продвижении товаров и услуг. Печатная продукция стоит недорого, проста в изготовлении и достаточно эффектна, чтобы использовать её периодически или постоянно в рекламных целях.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="philosophy" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__item item">
+					<div class="item__our">наша</div>
+					<div class="item__block">
+						<div class="item__title item__title-philosophy">философия</div>
+						<div class="item__text item__text-philosophy">Фирменный стиль — это не просто логотип или название организации. Он включает в себя общую концепцию дизайна и отражает философию и цели компании. Это совокупность графических, текстовых и даже звуковых элементов, которые отличают организацию от других.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="lamp" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__item item">
+					<div class="item__our">наша</div>
+					<div class="item__block">
+						<div class="item__title item__title-lamp">идея</div>
+						<div class="item__text item__text-lamp">С нами возможна реализация в жизнь любых, даже самых оригинальных идей и задумок.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="js/app.min.js?_v=20221128192401"></script>
+</body>
+
+</html>
